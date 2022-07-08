@@ -9,18 +9,17 @@ body {
 }
 
 :root {
-    --main-bgcolor: rgb(34, 32, 59);
-    --header-bgcolor: rgba(0, 0, 0, 0.150);
-    --text-color: rgb(255,255,255);
-    --box-shadow-bgcolor: rgb(31, 30, 55);
-    --box-shadow: rgb(23, 22, 41);
-    --cyan-color: rgb(183, 188, 255);
-    --aquamarine-color: rgb(88, 174, 145);
+  --main-bgcolor: rgb(34, 32, 59);
+  --header-bgcolor: rgba(0, 0, 0, 0.15);
+  --text-color: rgb(255, 255, 255);
+  --box-shadow-bgcolor: rgb(31, 30, 55);
+  --box-shadow: rgb(23, 22, 41);
+  --cyan-color: rgb(183, 188, 255);
+  --aquamarine-color: rgb(88, 174, 145);
 }
 
-
 .wrapper {
-    display: flex;
+  display: flex;
 }
 
 .header-wrapper {
@@ -38,94 +37,101 @@ body {
   margin-top: 50%;
   padding: 10px;
   color: var(--text-color);
-  background-color: var(--header-bgcolor)
+  background-color: var(--header-bgcolor);
 }
 
 .main {
-    width: 75%;
-    background-color: var(--main-bgcolor);
+  width: 75%;
+  background-color: var(--main-bgcolor);
 }
 
 .main-text {
-    margin-top: 10%;
-    margin-left: 5%;
-    width: 75%;
-    color: var(--text-color);
-    font-size: 2rem;
+  margin-top: 10%;
+  margin-left: 5%;
+  width: 75%;
+  color: var(--text-color);
+  font-size: 2rem;
 }
 
 form {
-    margin-top: 10%;
-    margin-left: 5%;
-    font-size: 2rem;
-    color: var(--text-color);
+  margin-top: 10%;
+  margin-left: 5%;
+  font-size: 2rem;
+  color: var(--text-color);
 }
 
 input {
-    font-family: "VT323", monospace;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    border: 0;
-    height: 40px;
-    padding: 0 10px;
+  font-family: "VT323", monospace;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: 0;
+  height: 40px;
+  padding: 0 10px;
 }
 
 label {
-    position: relative;
-    opacity: 0.3;
-    font-size: 1.5rem;
-    padding-bottom: 8px;
+  position: relative;
+  opacity: 0.3;
+  font-size: 1.5rem;
+  padding-bottom: 8px;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    width: 20rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 20rem;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
 }
 
 .wrap {
-    width: 320px;
-    height: 270px;
+  margin: 0;
+  width: 320px;
+  height: 270px;
 }
 
 .submit-btn {
-    font-family: "VT323", monospace;
-    padding: 18px 50px;
-    border: 0;
-    font-size: 1.5rem;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: var(--cyan-color);
+  font-family: "VT323", monospace;
+  padding: 18px 50px;
+  border: 0;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: var(--cyan-color);
 }
 
 .submit-btn:hover {
-    background-color: var(--aquamarine-color);
-    color: var(--text-color);
+  background-color: var(--aquamarine-color);
+  color: var(--text-color);
 }
 
 .box-shadow {
-    padding-bottom: 10px;
-    background-color: var(--box-shadow-bgcolor);
-    box-shadow: 0px 2px 9px var(--box-shadow);
+  padding-bottom: 25px;
+  background-color: var(--box-shadow-bgcolor);
+  box-shadow: 0px 2px 9px var(--box-shadow);
 }
 
 .btn-wrapper {
-    margin-left: 5%;
+  margin-left: 5%;
 }
 
 .btn-form {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .medium-text {
-    font-size: 1.5rem;
-    color: var(--text-color);
+  font-size: 1.5rem;
+  color: var(--text-color);
 }
 
 .log-in {
-    text-decoration: underline;
-    cursor: pointer;
-    color: var(--cyan-color);
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--cyan-color);
 }
