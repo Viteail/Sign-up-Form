@@ -12,6 +12,10 @@ body {
     --main-bgcolor: rgb(34, 32, 59);
     --header-bgcolor: rgba(0, 0, 0, 0.150);
     --text-color: rgb(255,255,255);
+    --box-shadow-bgcolor: rgb(31, 30, 55);
+    --box-shadow: rgb(23, 22, 41);
+    --cyan-color: rgb(183, 188, 255);
+    --aquamarine-color: rgb(88, 174, 145);
 }
 
 
@@ -58,16 +62,70 @@ form {
 }
 
 input {
-    margin-top: 5%;
+    font-family: "VT323", monospace;
     font-size: 1.5rem;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 0;
+    height: 40px;
+    padding: 0 10px;
 }
 
 label {
-    position: absolute;
-    top: 43%;
-    left: 34%;
+    position: relative;
     opacity: 0.3;
     font-size: 1.5rem;
+    padding-bottom: 8px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 20rem;
+}
+
+.wrap {
+    width: 320px;
+    height: 270px;
+}
+
+.submit-btn {
+    font-family: "VT323", monospace;
+    padding: 18px 50px;
+    border: 0;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: var(--cyan-color);
+}
+
+.submit-btn:hover {
+    background-color: var(--aquamarine-color);
+    color: var(--text-color);
+}
+
+.box-shadow {
+    padding-bottom: 10px;
+    background-color: var(--box-shadow-bgcolor);
+    box-shadow: 0px 2px 9px var(--box-shadow);
+}
+
+.btn-wrapper {
+    margin-left: 5%;
+}
+
+.btn-form {
+    margin-top: 20px;
+}
+
+.medium-text {
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+.log-in {
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--cyan-color);
 }
